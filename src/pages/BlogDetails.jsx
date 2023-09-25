@@ -60,7 +60,7 @@ const BlogDetais = () => {
                     onClick={() => setModal(true)}
                     disabled={loading}
                 >
-                    <img src="../../public/assets/delete.svg" alt="delete-button" />
+                    <img src="../assets/delete.svg" alt="delete-button" />
                 </button>
                 <Link className="edit-link" to={`/update/${id}`}>Edit
                     <svg width="25px" height="25px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

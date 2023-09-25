@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useAuthContext } from '../hooks/useAuthContext'
-import { useGetRequest } from '../hooks/useGetRequest'
+
 
 
 const CommentLikeContainer = ({ comment, userInfo }) => {
