@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useAuthContext } from '../../hooks/useAuthContext'
 import EditProfile from "../../components/EditProfile";
-import DeleteUserModal from "../../components/deleteUserModal";
+import DeleteUserModal from "../../components/DeleteUserModal";
 import { useGetRequest } from "../../hooks/useGetRequest";
 
 const Profile = () => {
