@@ -8,7 +8,7 @@ import UpdateBlog from './pages/UpdateBlog';
 import Signup from './pages/Signup';
 import { useAuthContext } from './hooks/useAuthContext';
 import { useEffect } from 'react';
-import UserLayout from './layouts/userLayout';
+import UserLayout from './layouts/UserLayout';
 import Profile from './pages/userPages/Profile';
 import LikedBlogs from './pages/userPages/LikedBlogs';
 import MyBlogs from './pages/userPages/MyBlogs';
