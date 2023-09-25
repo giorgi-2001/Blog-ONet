@@ -5,7 +5,7 @@ import Create from './pages/Create';
 import Login from './pages/Login'
 import BlogDetais from './pages/BlogDetails';
 import UpdateBlog from './pages/UpdateBlog';
-import Signup from './pages/signup';
+import Signup from './pages/Signup';
 import { useAuthContext } from './hooks/useAuthContext';
 import { useEffect } from 'react';
 import UserLayout from './layouts/userLayout';
