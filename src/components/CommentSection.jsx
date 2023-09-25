@@ -2,7 +2,7 @@ import { useCommentContext } from '../hooks/useCommentContext'
 import { useAuthContext } from '../hooks/useAuthContext';
 import { useEffect, useState } from 'react';
 import CommentForm from './CommentForm';
-import CommentCard from './commentCard';
+import CommentCard from './CommentCard';
 import DelComModal from './DelComModal';
 
 const CommentSection = ({ blog, userInfo }) => {
